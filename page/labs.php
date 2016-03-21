@@ -14,7 +14,6 @@
 		<div class="page">    
         <br><a href="/lr17"><div class="labs">Лабораторна робота №17</div></a>
         <br><a href="/lr18"><div class="labs">Лабораторна робота №18</div></a>
-        <!--<br><a href="/lr19"><div class="labs">Лабораторна робота №19</div></a>--> 
 		</div>
 	</div>
 
