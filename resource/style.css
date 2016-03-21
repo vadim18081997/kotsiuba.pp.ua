@@ -1,0 +1,142 @@
+*{margin: 0; padding: 0 }
+
+body{font: 12px/18px Arial, sans-serif; width: 100%; background: url(/resource/img/bg.jpg) top center no-repeat}
+a{text-decoration: none;}
+
+input[type=text], input[type=password], input[type=email] {
+	height: 20px;
+	width: 200px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+input[type=submit], input[type=reset] {
+	color: #FFFFFF;
+	padding: 8px;
+	text-decoration: none;
+	background: #0035C7;
+	border: 1px solid #2E2EA9;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+	background: #4343F1;
+	cursor: pointer;
+}
+
+select {
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;
+	width: 1000px;
+	background: url(/resource/img/logo.png);
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	width: 1000px;
+	height: auto;
+	background: #FFFFFF;
+}
+
+.MenuHead{
+	width: 1000px;
+	height: 60px;
+	background: #14214B;
+}
+
+.menu{
+	float: left;
+	display: inline-block;
+	height: 20px;
+	background: #14214B;
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.menu:hover{
+	background: #2C469E;
+	cursor: pointer;
+}
+
+.labs{
+    margin: auto;
+	height: 20px;
+    width: 250px;
+	background: #14214B;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 20px;   
+}
+
+
+.labs:hover{
+	background: #2C469E;
+	cursor: pointer;
+}
+
+.page{
+	padding: 20px;
+}
+
+.MessageErr{
+	border: 1px solid #B23131;
+	background: #C80000;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+.MessagePod{
+	border: 1px solid #B3AF32;
+	background: #F5E802;
+	padding: 10px;
+	color: #000000;
+}
+
+.MessageInf{
+	border: 1px solid #32B341;
+	background: #52EA00;
+	padding: 10px;
+	color: #000000;
+}
+
+.captchaCap{
+	max-width: 80px;
+	max-height: 30px;
+}
+
+.captchaImg{
+	width: 110px;
+	height: 30px;
+	float: right;
+	border: 1px solid #2E2EA9;
+}
+
+.captchaDiv{
+	width: 215px;
+	height: 30px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 10px;
+	padding: 20px;
+	color: #FFFFFF;
+	background: #14214B;
+	text-align: center;
+}
