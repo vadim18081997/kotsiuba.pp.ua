@@ -13,7 +13,8 @@
 		<?php MessageShow();?>
 		<div class="page">
 		<form method="POST" action="/account/registration">
-			<br><input type="text" name="login" placeholder="Логин" maxlength="10" pattern="[A-Za-z0-9]{3,10}" title="Не менее 3 и не более 10 латынских букв или цифр." required>
+			<br><input type="text" name="login" placeholder="Логин" maxlength="25" pattern="[A-Za-z0-9]{3,25}"
+                       title="Не менее 3 и не более 25 латынских букв или цифр." required>
 			<br><input type="email" name="email" placeholder="E-Mail" required>
 			<br><input type="password" name="password" placeholder="Пароль" maxlength="15" pattern="[A-Za-z0-9]{6,15}" title="Не менее 6 и не более 15 латынских букв или цифр." required>
 			<br><input type="text" name="name" placeholder="Имя" >
